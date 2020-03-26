@@ -1,0 +1,21 @@
+.header__lang{
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+}
+.header__lang:first-of-type{
+    text-decoration: underline;
+    padding-right: 18px;
+}
+@media screen and (max-width: 425px){
+    .header__lang{
+        font-size: 18px;
+        line-height: 17px;
+    }
+}
+@media screen and (min-width: 426px){
+    .header__lang{
+        font-size: 24px;
+        line-height: 23px;
+    }
+}
