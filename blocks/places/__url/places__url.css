@@ -3,3 +3,6 @@
     font-size: 18px;
     line-height: 30px;
 }
+.places__url:hover{
+    color: rgba(255, 255, 255, 0.7);
+}

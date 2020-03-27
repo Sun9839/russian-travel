@@ -1,5 +1,6 @@
 .intro__text{
     font-weight: bold;
+    padding: 0;
 }
 @media screen and (max-width: 425px){
     .intro__text{

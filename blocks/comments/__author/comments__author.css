@@ -1,0 +1,19 @@
+.comments__author{
+    color: #FFFFFF;
+    font-weight: 900;
+}
+@media screen and (min-width: 320px){
+    .comments__author{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 0;
+
+    }
+}
+@media screen and (min-width: 1024px){
+    .comments__author{
+        text-align: left;
+    }
+}

@@ -10,7 +10,7 @@
 }
 @media screen and (min-width: 375px) and (max-width: 767px){
     .video__item{
-        width: 343px;
+        width: 310px;
         height: 200px;
         margin-top: 18px;
     }

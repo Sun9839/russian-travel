@@ -19,7 +19,6 @@
 }
 @media screen and (min-width: 1280px){
     .places__paragraphs{
-        margin-left: 40px;
         width: 480px;
         margin-top: 60px;
     }
@@ -28,6 +27,5 @@
     .places__paragraphs{
         margin-left: 60px;
         width: 540px;
-        margin-top: 60px;
     }
 }

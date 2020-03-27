@@ -5,11 +5,11 @@
     text-align: center;
     font-weight: 900;
 }
+}
 @media screen and (min-width: 320px){
     .video__section-title{
         font-size: 32px;
         line-height: 35px;
-        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -18,26 +18,11 @@
     .video__section-title{
         font-size: 42px;
         line-height: 46px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 @media screen and (min-width: 1024px){
     .video__section-title{
         font-size: 72px;
         line-height: 78px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media screen and (min-width: 1280px){
-    .video__section-title{
-        font-size: 72px;
-        line-height: 78px;
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }

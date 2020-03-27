@@ -6,15 +6,15 @@
 @media screen and (min-width: 320px){
     .cover__subtitle{
         margin-top: 16px;
-        font-size: 16px;
-        line-height: 23px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
 @media screen and (min-width: 768px){
     .cover__subtitle{
         margin-top: 45px;
-        font-size: 24px;
-        line-height: 35px;
+        font-size: 18px;
+        line-height: 26px;
         width: 640px;
         margin-right: auto;
         margin-left: auto;
@@ -23,10 +23,5 @@
 @media screen and (min-width: 1024px){
     .cover__subtitle{
         margin-top: 134px;
-        font-size: 24px;
-        line-height: 35px;
-        width: 640px;
-        margin-right: auto;
-        margin-left: auto;
     }
 }

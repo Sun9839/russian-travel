@@ -23,10 +23,5 @@
 @media screen and (min-width: 1024px){
     .video__section-subtitle{
         margin-top: 48px;
-        font-size: 24px;
-        line-height: 35px;
-        width: 640px;
-        margin-right: auto;
-        margin-left: auto;
     }
 }

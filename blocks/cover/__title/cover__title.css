@@ -15,8 +15,6 @@
 }
 @media screen and (min-width: 375px){
     .cover__title{
-        font-size: 32px;
-        line-height: 35px;
         margin-top: 104px;
     }
 }
@@ -31,13 +29,11 @@
     .cover__title{
         font-size: 72px;
         line-height: 78px;
-        margin-top: 211px;
+        margin-top: 165px;
     }
 }
 @media screen and (min-width: 1280px){
     .cover__title{
-        font-size: 72px;
-        line-height: 78px;
         margin-top: 274px;
     }
     .cover__title br{

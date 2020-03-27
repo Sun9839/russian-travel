@@ -23,8 +23,3 @@
         border: 16px solid #2A2C2F;
     }
 }
-@media screen and (min-width: 1280px){
-    .photo-grid__item{
-        border: 16px solid #2A2C2F;
-    }
-}

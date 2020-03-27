@@ -1,3 +1,5 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
 @import url('../blocks/root/root.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/lead/lead.css');
@@ -8,11 +10,3 @@
 @import url('../blocks/comments/comments.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
-@font-face {
-    font-family: "Inter"; 
-    src: url("../fonts/inter.css");
-}
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
