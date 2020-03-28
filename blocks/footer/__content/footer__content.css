@@ -3,8 +3,8 @@
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 0;
 }
 @media screen and (min-width: 320px){
@@ -12,6 +12,7 @@
         flex-direction: column;
         padding-top: 64px;
         padding-bottom: 24px;
+        width: 90%;
     }
 }
 @media screen and (min-width: 768px){
@@ -27,8 +28,8 @@
         padding-bottom: 48px;
     }
 }
-@media screen and (min-width: 1440x){
+@media screen and (min-width: 1280px){
     .footer__content{
-        width: 80%;
+        width: 100%;
     }
 }

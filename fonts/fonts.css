@@ -1,8 +1,5 @@
+@import url('./inter/inter.css');
 @font-face {
     font-family: "Inter"; 
-    src: url("./inter.css");
-}
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+    src: url("./inter/inter.css");
 }

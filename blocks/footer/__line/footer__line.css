@@ -1,0 +1,16 @@
+@media screen and (min-width: 320px){
+    .footer__line{
+        margin-bottom: 32px;
+    }
+    .footer__line:last-of-type{
+        margin-bottom: o;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer__line{
+        padding-right: 18px;
+    }
+    .footer__line:last-of-type{
+        padding-right: 0;
+    }
+}

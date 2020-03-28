@@ -39,10 +39,3 @@
         margin-top: 102px;
     }
 }
-@media screen and (min-width: 1280px){
-    .cover{
-        width: 80%;
-        height: 594px;
-        margin-top: 102px;
-    }
-}
