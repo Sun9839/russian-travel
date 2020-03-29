@@ -1,4 +1,4 @@
-@import url('__item/photo-grid__item.css');
+@import url('./__item/photo-grid__item.css');
 .photo-grid{
     margin-left: auto;
     margin-right: auto;
@@ -12,6 +12,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(12,192px);
         grid-gap: 8px;
+        margin-top: 64px;
     }
 }
 @media screen and (min-width: 375px){
@@ -20,10 +21,11 @@
         grid-gap: 16px;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 600px){
     .photo-grid{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(6,234px);
+        margin-top: 102px;
     }
 }
 @media screen and (min-width: 1024px){
