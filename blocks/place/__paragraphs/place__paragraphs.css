@@ -6,14 +6,14 @@
 @media screen and (min-width: 768px){
     .place__paragraphs{
         margin-left: 28px;
-        width: 320px;
+        width: calc(90% - 357px);
         margin-top: 32px;
     }
 }
 @media screen and (min-width: 1024px){
     .place__paragraphs{
         margin-left: 40px;
-        width: 420px;
+        width: calc(90% - 456px);
         margin-top: 40px;
     }
 }
