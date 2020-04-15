@@ -1,3 +1,6 @@
 .intro__line{
-    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
 }

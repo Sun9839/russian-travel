@@ -1,45 +1,42 @@
-@import url('./__linl/cover__link.css');
+@import url('./__link/cover__link.css');
+@import url('./__overlay/cover__overlay.css');
+@import url('./__image/cover__image.css');
 @import url('./__title/cover__title.css');
 @import url('./__subtitle/cover__subtitle.css');
 .cover{
-    background-image: url('../../images/cover.jpg');
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
-.cover:hover{
-    opacity: 0.7;
-}
 @media screen and (min-width: 320px){
     .cover{
-        width: 100%;
-        height: 216px;
         margin-top: 64px;
+        width: 100%;
+        height: 200px;
     }
 }
 @media screen and (min-width: 375px){
     .cover{
         height: 272px;
-        margin-top: 48px;
     }
 }
 @media screen and (min-width: 768px){
     .cover{
-        height: 500px;
-        margin-top: 102px;
+        margin-top: 88px;
+        height: 480px;
     }
 }
 @media screen and (min-width: 1024px){
     .cover{
-        height: 562px;
+        margin-top: 92px;
+        height: 640px;
     }
 }
 @media screen and (min-width: 1280px){
     .cover{
         width: 1184px;
-        height: 594px;
-        margin-top: 102px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 740px;
+        width: 1184px;
     }
 }

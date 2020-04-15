@@ -1,25 +1,30 @@
-@media screen and (max-width: 767px){
+.place__paragraphs{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
     .place__paragraphs{
-        margin-top: 24px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
     }
 }
 @media screen and (min-width: 768px){
     .place__paragraphs{
+        width: calc(100% - 368px);
         margin-left: 28px;
-        width: calc(90% - 357px);
-        margin-top: 32px;
     }
 }
 @media screen and (min-width: 1024px){
     .place__paragraphs{
-        margin-left: 40px;
-        width: calc(90% - 456px);
-        margin-top: 40px;
+        width: calc(100% - 472px);
+        margin-left: 32px;        
     }
 }
 @media screen and (min-width: 1280px){
     .place__paragraphs{
-        width: 480px;
-        margin-top: 60px;
+        width: calc(100% - 500px);
+        margin-left: 40px;        
     }
 }

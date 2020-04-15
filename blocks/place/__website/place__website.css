@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px){
+@media screen and (min-width: 320px){
     .place__website{
         display: none;
     }
@@ -7,19 +7,19 @@
     .place__website{
         display: flex;
         flex-direction: column;
+        width: calc(100% - 368px);
         margin-left: 28px;
-        min-width: 320px;
     }
 }
 @media screen and (min-width: 1024px){
     .place__website{
-        margin-left: 40px;
-        margin-right: auto;
-        min-width: 420px;
+        width: calc(100% - 472px);
+        margin-left: 32px;
     }
 }
 @media screen and (min-width: 1280px){
     .place__website{
-        width: 480px;
+        width: calc(100% - 500px);
+        margin-left: 40px;
     }
 }
