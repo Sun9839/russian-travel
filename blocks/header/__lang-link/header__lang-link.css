@@ -1,11 +1,7 @@
 @import url('./_lang/header__lang-link_lang_en.css');
+@import url('./_lang/header__lang-link_lang_ru.css');
 .header__lang-link{
     color: #FFFFFF;
-    margin-left: auto;
-}
-.header__lang-link:last-of-type{
-    margin-left: 0;
-    margin-right: 0;
 }
 @media screen and (min-width: 320px){
     .header__lang-link{

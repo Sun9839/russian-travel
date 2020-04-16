@@ -2,6 +2,7 @@
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
 @import url('./__line/intro__line.css');
+@import url('./__span/intro__span.css');
 .intro{
     display: flex;
     flex-direction: column;
